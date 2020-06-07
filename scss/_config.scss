@@ -1,0 +1,195 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+// main page container
+.container {
+    width: calc( 100% - 300px);
+    margin-left: auto;
+    overflow: hidden;
+    padding: 5px;
+    background-color: rgb(14, 71, 71);
+    .page {
+        display: none;
+        position: relative;
+        width: 200%;
+        left: 50%;
+    }
+    // pages active class and animation
+    .displayPage {
+        display: block;
+        left: 0;
+        animation: pageslide 0.5s 1;
+        color: #ffffff;
+        width: 100%;
+        background-color: teal;
+    }
+    @keyframes pageslide {
+        from {
+            left: 100%;
+            right: 0;
+        }
+        to {
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+// some golabal style
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 200;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+h6 {
+    font-size: 20px;
+    font-weight: 200;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 100;
+}
+
+// primary button
+.primary-button {
+    padding: 10px 30px;
+    border: 1px solid rgb(212, 6, 6);
+    border-radius: 5px;
+    background-color: #c40505;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #c4050500;
+        border-radius: 0;
+        transition: 0.5s;
+    }
+}
+
+// secondary button
+.secondary-button {
+    padding: 10px 30px;
+    border: 1px solid rgb(212, 6, 6);
+    border-radius: 5px;
+    background-color: #c4050500;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #c40505;
+        border-radius: 0;
+        transition: 0.5s;
+    }
+}
+
+// service price button
+.pricebtn {
+    padding: 10px 25px;
+    border: none;
+    border-left: 3px solid #1ebd33;
+    border-right: 3px solid #1ebd33;
+    background-color: #221f1fc7;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+    &:hover {
+        color: #1ebd33;
+    }
+}
+
+// del tag style
+del {
+    color: #686565e5;
+} 
+
+// sup fonts styles
+sup {
+    font-size: small;
+}
+
+// social incos style start
+div.social-icons {
+    position: absolute;
+    right: 0;
+    padding: 15px 30px;
+    a {
+        border: 1px solid rgb(31, 212, 212);
+        border-radius: 5px;
+        color: $nav-link-color;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+        width: 30px;
+        height: 30px;
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+        &:hover {
+            border-radius: 0;
+            color: $link-hover-color;
+            border-color: rgb(31, 212, 212);
+            transition: 0.3s;
+        }
+    }
+}
+// social incos style end
+
+
+// ====================================
+// for Laptop or less then 1024px view
+// ====================================
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+    .displayPage {
+        padding-top: 100px;
+    }
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "freelanceproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "http://md-nahid.github.io/freelanceproject",
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
