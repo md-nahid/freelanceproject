@@ -29,9 +29,9 @@
                     border: none;
                     border-radius: 5px;
                     background-color: rgb(19, 92, 92);
-                    color: #ffffff;
+                    color: rgb(255, 255, 255);
                     &::placeholder {
-                        color: rgb(67, 201, 201);
+                        color: rgba(67, 201, 201, 0.705);
                     }
                 }
                 textarea {
@@ -40,9 +40,9 @@
                     padding: 10px;
                     border-radius: 5px;
                     background-color: rgb(19, 92, 92);
-                    color: #ffffff;
+                    color: rgb(255, 255, 255);
                     &::placeholder {
-                        color: rgb(67, 201, 201);
+                        color: rgba(67, 201, 201, 0.699);
                     }
                 }
             }
@@ -71,7 +71,7 @@
     // more contact form style start
     .morecontact {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-wrap: wrap;
         margin-top: 20px;
         .googlemap {

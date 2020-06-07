@@ -14,14 +14,14 @@
             .workbtnall {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 align-items: center;
                 margin: 30px 0;
                 .workbtn {
                     padding: 20px 30px;
                     background-color: rgb(15, 63, 63);
                     border: none;
-                    color: #ffffff;
+                    color: rgb(255, 255, 255);
                     font-size: large;
                     border-radius: 15px;
                     outline: none;
@@ -60,11 +60,11 @@
                         display: flex;
                         flex-direction: row;
                         flex-wrap: nowrap;
-                        justify-content: space-evenly;
+                        justify-content: space-around;
                         align-items: center;
                         p {
                             background-color: rgb(22, 73, 73);
-                            color: #ffffff;
+                            color: rgb(255, 255, 255);
                             margin: 15px;
                             padding: 10px;
                             border-radius: 5px;

@@ -107,7 +107,7 @@ p {
 }
 
 .primary-button:hover {
-  background-color: #c4050500;
+  background-color: rgba(196, 5, 5, 0);
   border-radius: 0;
   transition: 0.5s;
 }
@@ -116,7 +116,7 @@ p {
   padding: 10px 30px;
   border: 1px solid #d40606;
   border-radius: 5px;
-  background-color: #c4050500;
+  background-color: rgba(196, 5, 5, 0);
   outline: none;
   cursor: pointer;
 }
@@ -132,7 +132,7 @@ p {
   border: none;
   border-left: 3px solid #1ebd33;
   border-right: 3px solid #1ebd33;
-  background-color: #221f1fc7;
+  background-color: #1a1717;
   color: #ffffff;
   font-size: large;
   border-radius: 5px;
@@ -146,7 +146,7 @@ p {
 }
 
 del {
-  color: #686565e5;
+  color: #7a7575;
 }
 
 sup {
@@ -348,7 +348,7 @@ div.social-icons a:hover {
 .about .aboutheader {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 50px 0;
 }
 
@@ -582,7 +582,7 @@ div.social-icons a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -617,14 +617,14 @@ div.social-icons a:hover {
   margin: 0 auto;
   margin-top: 30px;
   padding: 20px;
-  background-color: #06474988;
+  background-color: rgba(6, 71, 73, 0.533);
   border-radius: 10px;
 }
 
 .about main .myinterest .alinterest .row {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 20px 0;
 }
 
@@ -635,7 +635,7 @@ div.social-icons a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border-radius: 10px;
   background-color: #064749;
 }
@@ -675,7 +675,7 @@ div.social-icons a:hover {
   .about main .myinterest .alinterest .row {
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .about main .myinterest .alinterest .row p {
     width: 60%;
@@ -717,7 +717,7 @@ div.social-icons a:hover {
 .myworks main .workconainer .workbtnall {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin: 30px 0;
 }
@@ -726,7 +726,7 @@ div.social-icons a:hover {
   padding: 20px 30px;
   background-color: #0f3f3f;
   border: none;
-  color: #ffffff;
+  color: white;
   font-size: large;
   border-radius: 15px;
   outline: none;
@@ -770,13 +770,13 @@ div.social-icons a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
 .myworks main .workconainer .allwork .work .overlay p {
   background-color: #164949;
-  color: #ffffff;
+  color: white;
   margin: 15px;
   padding: 10px;
   border-radius: 5px;
@@ -837,7 +837,7 @@ div.social-icons a:hover {
 .service main .servicecatagory {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .service main .servicecatagory .typeofservice {
@@ -904,7 +904,7 @@ div.social-icons a:hover {
 
 .service main .workingprocess .processcontainer .secondcol {
   padding: 10px;
-  border: 3px solid #ffffff;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
@@ -975,7 +975,7 @@ div.social-icons a:hover {
 }
 
 .service main .pricing .pricecontainer .price .package h3 {
-  border-bottom: 5px solid darkslategray;
+  border-bottom: 5px solid #305050;
   padding-bottom: 15px;
 }
 
@@ -1108,11 +1108,11 @@ div.social-icons a:hover {
   border: none;
   border-radius: 5px;
   background-color: #135c5c;
-  color: #ffffff;
+  color: white;
 }
 
 .contact .contactForm form div input::placeholder {
-  color: #43c9c9;
+  color: rgba(67, 201, 201, 0.705);
 }
 
 .contact .contactForm form div textarea {
@@ -1121,11 +1121,11 @@ div.social-icons a:hover {
   padding: 10px;
   border-radius: 5px;
   background-color: #135c5c;
-  color: #ffffff;
+  color: white;
 }
 
 .contact .contactForm form div textarea::placeholder {
-  color: #43c9c9;
+  color: rgba(67, 201, 201, 0.699);
 }
 
 .contact .contactForm form input[type=submit] {
@@ -1152,7 +1152,7 @@ div.social-icons a:hover {
 
 .contact .morecontact {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 20px;
 }
