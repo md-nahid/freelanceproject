@@ -292,6 +292,7 @@ div.social-icons a:hover {
 .home {
   width: 100%;
   height: calc( 100vh - 10px);
+  background-color: #00b90000;
   background-image: url(/image/home-background.png);
   background-position: center;
   background-repeat: no-repeat;
